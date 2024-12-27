@@ -58,8 +58,7 @@ if (!function_exists('array_find')) {
             return null;
         }
 
-        $value = array_each($array, $callback);
-        return ($value === null) ? null : $value['value'];
+        return array_each($array, $callback)['value'] ?? null;
     }
 }
 
@@ -81,8 +80,7 @@ if (!function_exists('array_find_key')) {
             return null;
         }
 
-        $key = array_each($array, $callback);
-        return ($key === null) ? null : $key['key'];
+        return array_each($array, $callback)['key'] ?? null;
     }
 }
 
