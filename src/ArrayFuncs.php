@@ -2,7 +2,7 @@
 /**
  * Luminova Framework Procedural Functions for PHP 8.0 array operations.
  *
- * This file provides utility functions to extend the native array capabilities which already exisit in PHP 8.1 and above.
+ * This file provides utility functions to extend the native array capabilities which already exist in PHP 8.1 and above.
  *
  * @package Luminova Framework
  * @author Ujah Chigozie Peter
