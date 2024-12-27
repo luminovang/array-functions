@@ -1,0 +1,20 @@
+{
+    "name": "luminovang/array-functions",
+    "type": "library",
+    "description": "A utility function for array operations.",
+    "keywords": ["PHP", "Array", "PHP Array", "Array Functions", "PHP 8", "Luminova", "PHP Luminova"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ujah Chigozie",
+            "email": "ujahchigozie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "files": ["src/ArrayFunctions.php"]
+    },
+    "prefer-stable": true
+}
