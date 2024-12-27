@@ -1,7 +1,7 @@
 {
     "name": "luminovang/array-functions",
     "type": "library",
-    "description": "A utility function for array operations.",
+    "description": "A backward utility function for array operations supported in PHP 8.1 and later.",
     "keywords": ["PHP", "Array", "PHP Array", "Array Functions", "PHP 8", "Luminova", "PHP Luminova"],
     "license": "MIT",
     "authors": [
