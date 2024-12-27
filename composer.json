@@ -14,7 +14,7 @@
         "php": ">=8.0"
     },
     "autoload": {
-        "files": ["src/ArrayFunctions.php"]
+        "files": ["src/ArrayFuncs.php"]
     },
     "prefer-stable": true
 }
