@@ -11,7 +11,7 @@
  * @link https://luminova.ng
  * @source https://www.php.net/manual/en/function.array
  */
-namespace Luminova\Procedural\Functions\Array;
+namespace Luminova\Procedural\ArrayFunctions;
 
 if (!function_exists('array_each')) {
     /**
