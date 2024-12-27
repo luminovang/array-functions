@@ -54,11 +54,7 @@ if (!function_exists('array_find')) {
      */
     function array_find(array $array, callable $callback): mixed
     {
-        if($array === []){
-            return null;
-        }
-
-        return array_each($array, $callback)['value'] ?? null;
+        return ($array === []) ? null : (array_each($array, $callback)['value'] ?? null);
     }
 }
 
@@ -76,11 +72,7 @@ if (!function_exists('array_find_key')) {
      */
     function array_find_key(array $array, callable $callback): mixed
     {
-        if($array === []){
-            return null;
-        }
-
-        return array_each($array, $callback)['key'] ?? null;
+        return ($array === []) ? null : (array_each($array, $callback)['key'] ?? null);
     }
 }
 
@@ -98,9 +90,7 @@ if (!function_exists('array_any')) {
      */
     function array_any(array $array, callable $callback): bool
     {
-        return ($array === []) 
-            ? false 
-            : array_each($array, $callback) !== null;
+        return ($array === []) ? false : array_each($array, $callback) !== null;
     }
 }
 
