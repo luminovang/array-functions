@@ -1,0 +1,9 @@
+{
+  "name": "@luminovang/array-functions",
+  "description": "A utility function for array operations.",
+  "version": "8.0",
+  "homepage": "http://github.com/luminovang/array-functions",
+  "repository": "git://github.com/luminovang/array-functions.git",
+  "author": "Ujah Chigozie <ujahchigozie@gmail.com>",
+  "license": "MIT"
+}
