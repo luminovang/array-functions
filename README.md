@@ -18,7 +18,7 @@ composer require luminovang/array-functions
 You can also use the function in another projects.
 
 ```php
-include_once __DIR__ . '/vendor/luminovang/src/ArrayFuncs.php;';
+include_once __DIR__ . '/vendor/luminovang/array-functions/src/ArrayFuncs.php;';
 ```
 
 ---
